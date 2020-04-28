@@ -22,3 +22,5 @@
 - https://github.com/leimao/Voice_Converter_CycleGAN
 - https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
 
+### Nibbas involved
+@Aniket-Pradhan @akj127 @Arav-malik
