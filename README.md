@@ -1,6 +1,10 @@
 # voice-conversion
 
-## Directory Structure
+## GMM based method
+
+## GAN based method
+
+### Directory Structure
 ```
 .
 ├── LICENSE
@@ -11,8 +15,6 @@
 ```
 
 - https://github.com/bajibabu/CycleGAN-VC
-- https://github.com/leimao/Voice_Converter_CycleGAN (tensorflow)
-- https://github.com/liusongxiang/StarGAN-Voice-Conversion
+- https://github.com/leimao/Voice_Converter_CycleGAN
 - https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
-- https://github.com/hujinsen/pytorch-StarGAN-VC
 
