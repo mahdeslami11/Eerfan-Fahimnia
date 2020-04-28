@@ -25,4 +25,4 @@
 ### Nibbas involved
 [Aniket Pradhan](github.com/Aniket-Pradhan)\
 [Akhil Jarodia](github.com/akj127)\
-[Arav Malk](github.com/Arav-malik)\
+[Arav Malk](github.com/Arav-malik)
