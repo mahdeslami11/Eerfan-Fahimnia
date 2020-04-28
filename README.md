@@ -5,8 +5,7 @@
 <insert paper links>
 
 ## GAN based method
-
-...
+[**Non parallel voice converison using cyclegan-vc2**](https://arxiv.org/pdf/1904.04631.pdf)
 
 - https://github.com/bajibabu/CycleGAN-VC
 - https://github.com/leimao/Voice_Converter_CycleGAN
