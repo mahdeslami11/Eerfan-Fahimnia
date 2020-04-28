@@ -7,9 +7,6 @@
 ## GAN based method
 [**Non parallel voice converison using cyclegan-vc2**](https://arxiv.org/pdf/1904.04631.pdf)
 
-- https://github.com/bajibabu/CycleGAN-VC
-- https://github.com/leimao/Voice_Converter_CycleGAN
-- https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
 
 ### Directory Structure
 ```
@@ -24,6 +21,9 @@
 │   └── data/
 └── README.md
 ```
+- https://github.com/bajibabu/CycleGAN-VC
+- https://github.com/leimao/Voice_Converter_CycleGAN
+- https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
 
 ## People involved
 * [Aniket Pradhan](http://home.iiitd.edu.in/~aniket17133)
