@@ -2,6 +2,10 @@
 
 ## GMM based method
 
+.\
+.\
+.
+
 ## GAN based method
 
 ### Directory Structure
