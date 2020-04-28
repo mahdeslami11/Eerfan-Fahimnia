@@ -30,5 +30,5 @@
 * [Akhil Jarodia](https://github.com/akj127)
 * [Arav Malk](https://github.com/Arav-malik)
 * [Deepanshu Badshah](#)
+* [Kshitij Srivastava](#)
 * [Siddharth Nair](https://github.com/siddharth17196)
-* [Ksishithisj](#)
