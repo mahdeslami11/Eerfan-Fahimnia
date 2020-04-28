@@ -1,0 +1,5 @@
+pysptk
+pyworld
+librosa
+tqdm
+https://github.com/r9y9/nnmnkwii/archive/v0.0.20.tar.gz
