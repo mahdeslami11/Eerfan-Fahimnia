@@ -2,12 +2,12 @@
 
 ## GMM based method
 
-[Method](GMM/README.md)  
+[Method](GMM/)  
 
 ## GAN based method
 Based on [this paper](https://arxiv.org/pdf/1904.04631.pdf) on non-parallel voice converison using cyclegan-vc2
 
-[Method](Cyclegan/README.md)
+[Method](Cyclegan/)
 
 
 ### Directory Structure
