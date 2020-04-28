@@ -21,9 +21,6 @@
 │   └── data/
 └── README.md
 ```
-- https://github.com/bajibabu/CycleGAN-VC
-- https://github.com/leimao/Voice_Converter_CycleGAN
-- https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
 
 ## People involved
 * [Aniket Pradhan](http://home.iiitd.edu.in/~aniket17133)
