@@ -27,6 +27,9 @@
 ```
 
 ## People involved
-[Aniket Pradhan](https://github.com/Aniket-Pradhan)\
+[Aniket Pradhan](http://home.iiitd.edu.in/~aniket17133)\
 [Akhil Jarodia](https://github.com/akj127)\
 [Arav Malk](https://github.com/Arav-malik)
+[Deepanshu Badshah](#)
+[Siddharth Nair](https://github.com/siddharth17196)
+[Ksishithisj](#)
