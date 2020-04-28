@@ -23,4 +23,4 @@
 - https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
 
 ### Nibbas involved
-@Aniket-Pradhan @akj127 @Arav-malik
+@github.com/Aniket-Pradhan @github.com/akj127 @github.com/Arav-malik
