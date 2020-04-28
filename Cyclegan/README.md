@@ -33,3 +33,8 @@ For example, to test for voice conversion between `SF1` and `TF1`:
 ```
 $python test.py --logf0s_normalization ../cache/logf0s_normalization.npz --mcep_normalization ../cache/mcep_normalization.npz --test_A_dir ../data/vcc2016_training/evaluation_all/SF1/ --output_A_dir ../data/vcc2016_training/converted_sound/SF1 --model_checkpoint ./model/_CycleGAN_CheckPoint
 ```
+## References
+
+- https://github.com/bajibabu/CycleGAN-VC
+- https://github.com/leimao/Voice_Converter_CycleGAN
+- https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/
