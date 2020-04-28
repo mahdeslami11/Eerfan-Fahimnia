@@ -1,4 +1,4 @@
-# voice-conversion
+# Voice-conversion
 
 ## GMM based method
 
