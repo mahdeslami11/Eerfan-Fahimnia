@@ -3,7 +3,7 @@
 
 [WORLD Vocoder](https://github.com/mmorise/World)
 
-sp -> smoothed spectrogram
+sp -> smoothed spectrogram\
 ap -> aperiodicity
 
 ## preprocess.py
