@@ -1,7 +1,8 @@
 # Working of all files, functions etc
 *PyWorld wrappers WORLD, which is a free software for high-quality speech analysis, manipulation and synthesis. It can estimate fundamental frequency (F0), aperiodicity and spectral envelope and also generate the speech like input speech with only estimated parameters.*
 
-[WORLD Vocoder](https://github.com/mmorise/World)
+[WORLD Vocoder](https://github.com/mmorise/World)  
+[pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder) - A python wrapper for WORLD vocoder
 
 sp -> smoothed spectrogram\
 ap -> aperiodicity
