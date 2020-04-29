@@ -16,7 +16,8 @@ Converting voice from source to target speaker using a non-parallel dataset and 
 │   └── data/
 ```
 
-[cache](https://drive.google.com/drive/folders/1macCqh240bRFK5AuDAACeA-e04xDbI0X?usp=sharing) directory and [data](https://drive.google.com/drive/folders/1-fEeZSyq40h_KTi5DFu3b-M40Sl8WGde?usp=sharing) directory\
+[cache](https://drive.google.com/drive/folders/1macCqh240bRFK5AuDAACeA-e04xDbI0X?usp=sharing) directory and [data](https://drive.google.com/drive/folders/1-fEeZSyq40h_KTi5DFu3b-M40Sl8WGde?usp=sharing) directory
+
 **Understanding the directories**
 - data directory
     - there is a directory for each dataset
