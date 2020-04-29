@@ -33,7 +33,7 @@ Converting voice from source to target speaker using a non-parallel dataset and 
 
 ### Preprocess dataset for Training
 
-Preprocess the wav files and store it in numpy format
+Preprocess the wav files and store it in numpy format\
 For example, if the source is `SF1` and target is `TF1`\
 (or can change the defaults inside prepocess_training.py and run it without any arguments)
 ```
