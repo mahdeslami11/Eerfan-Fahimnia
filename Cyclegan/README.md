@@ -4,9 +4,9 @@ Converting voice from source to target speaker using a non-parallel dataset and 
 
 ## Datasets Used
 
-- VCC 2016 
-- Malayalam Dataset from openslr
-- CMU Arctic (Indian accented english and US english)
+- VCC 2016 -> [link](https://datashare.is.ed.ac.uk/handle/10283/3061)
+- Malayalam Dataset from openslr -> [link](https://www.openslr.org/63/)
+- CMU Arctic (Indian accented english and US english) -> [link](http://www.festvox.org/cmu_arctic/)
 
 ## Directory Structure
 
