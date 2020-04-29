@@ -2,11 +2,30 @@
 
 Converting voice from source to target speaker using a non-parallel dataset and cyclegan-vc2 architecture
 
+## Directory Structure
+
+```
+├── Pytorch-CycleGAN-VC2/
+│   ├── cache/
+│   └── data/
+```
+
 ## Datasets Used
 
 - VCC 2016 
 - Malayalam Dataset from openslr
 - CMU Arctic (Indian accented english and US english)
+
+[cache directory](https://drive.google.com/drive/folders/1macCqh240bRFK5AuDAACeA-e04xDbI0X?usp=sharing)  [data directory](https://drive.google.com/drive/folders/1-fEeZSyq40h_KTi5DFu3b-M40Sl8WGde?usp=sharing)\
+**Understanding the directories**
+- data directory
+    - there is a directory for each dataset
+    - inside each directory there would be subdirectories having voice samples and a **converted sound/converted** subdirectory
+    - the converted_sound/converted subdirectory contains the set of target voice samples that have been converted by the model during validation
+- cache directory
+    - this directory contains the preprocessed data
+    - every dataset has their their own directory
+    - each directory has a subdirectory named model_checkpoint that stores the stores the model for that dataset
 
 ## Usage
 
