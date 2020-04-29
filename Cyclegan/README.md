@@ -26,7 +26,7 @@ Converting voice from source to target speaker using a non-parallel dataset and 
 - cache directory
     - this directory contains the preprocessed data
     - every dataset has their their own directory
-    - each directory has a subdirectory named model_checkpoint that stores the stores the model for that dataset
+    - each directory has a subdirectory named *model_checkpoint* that stores the model for that dataset
 
 ## Usage
 
