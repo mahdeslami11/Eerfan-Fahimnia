@@ -54,6 +54,12 @@ For example, to test for voice conversion between `SF1` and `TF1`:
 ```
 $python test.py --logf0s_normalization ../cache/logf0s_normalization.npz --mcep_normalization ../cache/mcep_normalization.npz --test_A_dir ../data/vcc2016_training/evaluation_all/SF1/ --output_A_dir ../data/vcc2016_training/converted_sound/SF1 --model_checkpoint ./model/_CycleGAN_CheckPoint
 ```
+
+### Analysis
+![Waveform plot](./plots/waveform.jpg)
+![Spectrogram plot](./plots/spectrogram.jpg)
+![Amplitude plot](./plots/amplitude.jpg)
+
 ## References
 - T. Kaneko, H. Kameoka, K. Tanaka and N. Hojo, "Cyclegan-VC2: Improved Cyclegan-based Non-parallel Voice Conversion," ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 6820-6824.
 - https://github.com/bajibabu/CycleGAN-VC
