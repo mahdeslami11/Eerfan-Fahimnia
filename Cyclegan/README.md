@@ -24,7 +24,7 @@ Converting voice from source to target speaker using a non-parallel dataset and 
     - inside each directory there would be subdirectories having voice samples and a *converted sound/converted* subdirectory
     - the converted_sound/converted subdirectory contains the set of target voice samples that have been converted by the model during validation
 - cache directory
-    - this directory contains the preprocessed data
+    - this directory contains the preprocessed data and respective models.
     - every dataset has their their own directory
     - each directory has a subdirectory named *model_checkpoint* that stores the model for that dataset
     - how to load a model for testing is given [here](README.md/#testvalidating)
