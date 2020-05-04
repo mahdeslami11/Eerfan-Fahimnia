@@ -61,6 +61,7 @@ $python test.py --logf0s_normalization ../cache/logf0s_normalization.npz --mcep_
 ![Amplitude plot](./plots/amplitude.jpg)
 
 ## References
+
 - T. Kaneko, H. Kameoka, K. Tanaka and N. Hojo, "Cyclegan-VC2: Improved Cyclegan-based Non-parallel Voice Conversion," ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 6820-6824.
 - https://github.com/bajibabu/CycleGAN-VC
 - https://github.com/leimao/Voice_Converter_CycleGAN
