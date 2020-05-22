@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+
+
+{% block body %}
+
+<div class="jumbotron text-center">	
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col">
+
+			  <h1>Upload an image</h1>
+
+			  <hr>
+
+				<form action="" method="POST" enctype="multipart/form-data">
+
+					<div class="form-group">
+
+				  	<div class="custom-file">
+
+						<input type="file" name="file">
+
+						<input type="submit" value=Upload>
+
+				  	</div>
+
+					</div>
+
+					
+
+				</form>
+
+    		</div>		
+
+		</div>
+
+	</div>
+
+	<table class="table" id="results-table">
+
+    <tr>
+
+      <th>Image</th>
+
+      <th>Prediction (species name)</th>
+
+    </tr>
+
+	<tr>
+
+		<th><img width="350px" height="250px" src="{{imgloc}}"></th>
+
+      	<th><h2>{{label}}</h2></th>
+
+    </tr>
+
+</table>
+
+</div>
+
+{% endblock %}
