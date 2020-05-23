@@ -1,65 +1,44 @@
 {% extends 'layout.html' %}
 
-
-
 {% block body %}
-
 <div class="jumbotron text-center">	
-
 	<div class="container">
-
 		<div class="row">
-
 			<div class="col">
-
-			  <h1>Upload an image</h1>
-
+			  <h1>UPLOAD AUDIO</h1>
 			  <hr>
-
+                <br>
+                <br>
+                <label for="methods"> Choose a Method: </label>
+                <select id="meth">
+                    <option value="cyclegan">CycleGAN vc2</option>
+                    <option value="gmm">Gaussian Mixture Model</option>
+                </select>
+                <br>
+                <br>
+                <br>
 				<form action="" method="POST" enctype="multipart/form-data">
-
 					<div class="form-group">
-
 				  	<div class="custom-file">
-
 						<input type="file" name="file">
-
 						<input type="submit" value=Upload>
-
 				  	</div>
-
 					</div>
-
-					
-
-				</form>
-
     		</div>		
-
 		</div>
-
 	</div>
-
+    <br>
+    <br>
 	<table class="table" id="results-table">
-
     <tr>
-
-      <th>Image</th>
-
-      <th>Prediction (species name)</th>
-
+      <th>Input Audio</th>
+      <th>Converted Audio</th>
     </tr>
-
 	<tr>
-
-		<th><img width="350px" height="250px" src="{{imgloc}}"></th>
-
-      	<th><h2>{{label}}</h2></th>
-
+        <th><a href="/play/src">PLAY</a></th>
+        <th><a href="/play/conv">PLAY</a></th>
     </tr>
-
 </table>
-
 </div>
 
 {% endblock %}
