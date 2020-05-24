@@ -2,7 +2,7 @@ from flask import Flask, Response, render_template, request
 import os
 from werkzeug.utils import secure_filename
 # import getpreds
-
+# import test
 
 upload_folder = 'static'
 allowed_extensions = ['jpeg' ,'jpg', 'png']
@@ -45,30 +45,31 @@ def upload():
             filename = secure_filename(file.filename)
             img_loc = os.path.join(app.config['upload_folder'], filename)
             file = request.files['file']
-            file.save(upload_folder+'/'+'snek.mp3')
+            file.save(upload_folder+'/'+'snek.wav')
             print(img_loc)
+            test.get_pred()
             # return render_template()
     return render_template('upload_audio.html')
 
 @app.route("/play/conv")
 def streamwav_conv():
     def generate():
-        with open("static/snek.mp3", "rb") as fwav:
+        with open("static/conv/snek.wav", "rb") as fwav:
             data = fwav.read(1024)
             while data:
                 yield data
                 data = fwav.read(1024)
-    return Response(generate(), mimetype="audio/mp3")
+    return Response(generate(), mimetype="audio/wav")
 
 @app.route("/play/src")
 def streamwav_src():
     def generate():
-        with open("static/sample.mp3", "rb") as fwav:
+        with open("static/snek.wav", "rb") as fwav:
             data = fwav.read(1024)
             while data:
                 yield data
                 data = fwav.read(1024)
-    return Response(generate(), mimetype="audio/mp3")
+    return Response(generate(), mimetype="audio/wav")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
