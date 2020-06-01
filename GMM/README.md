@@ -2,11 +2,11 @@
 
 Converting voice from a source speaker to a target speaker using a parallel dataset and GMMs
 
-### Important info
-
-* Dataset used:
-  * CMU Arctic dataset
-  * Our own dataset made from an audiobook sampled at 2/3 seconds
+## Dataset used:
+* [CMU Arctic dataset](http://www.festvox.org/cmu_arctic/)
+* Our own dataset made from an audiobook sampled at 2/3 seconds
+  * [2 second sampled](https://drive.google.com/file/d/1QR0qBOz19NCH-HyXk_7wcZyTJ5w7VHts/view?usp=sharing)
+  * [3 second sampled](https://drive.google.com/file/d/13ynWXriqJtkKbRslKrm7uck7KVIFjZOo/view?usp=sharing) 
 
 ## Sys params/Constants
 
