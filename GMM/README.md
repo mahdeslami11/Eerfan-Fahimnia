@@ -29,3 +29,8 @@ Converting voice from a source speaker to a target speaker using a parallel data
 
 * T. Toda, A. W. Black, and K. Tokuda, “Voice conversion based on maximum likelihood estimation of spectral parameter trajectory,” IEEETrans. Audio, Speech, Lang. Process, vol. 15, no. 8, pp. 2222–2235, Nov. 2007.
 * Kobayashi, Kazuhiro, et al. “Statistical Singing Voice Conversion with Direct Waveform Modification based on the Spectrum Differential.” Fifteenth Annual Conference of the International Speech Communication Association. 2014.
+
+1.target
+تبدیل صدا از بلندگوی منبع به بلندگوی هدف با استفاده از مجموعه داده موازی و GMM هدف از این پروژه
+
+
