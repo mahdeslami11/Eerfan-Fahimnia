@@ -40,3 +40,10 @@ Based on [this paper](https://arxiv.org/pdf/1904.04631.pdf) on non-parallel voic
 2.Describe innovation
 
 تبدیل Oice (VC) تکنیکی است برای تبدیل هویت گوینده موجود در شکل موج گفتار منبع به شکل موجی متفاوت و در عین حال حفظ اطلاعات زبانی شکل موج گفتار منبع. در سال 2016، چالش تبدیل صوتی (VCC) 2016 را در Interspeech 2016 راه اندازی کردیم. هدف چالش سال 2016 درک بهتر تکنیک های مختلف VC بود که بر اساس یک مجموعه داده مشترک آزادانه در دسترس برای بررسی یک هدف مشترک و به اشتراک گذاشتن دیدگاه ها ساخته شده بودند.
+3.Change Source Code
+
+import tensorflow as tf
+from tensorflow.contrib import slim
+from util.image import nchw_to_nhwc
+from util.layers import (GaussianKLD, GaussianLogDensity, GaussianSampleLayer,
+                         Layernorm, conv2d_nchw_layernorm, lrelu)
