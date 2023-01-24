@@ -31,3 +31,7 @@ Based on [this paper](https://arxiv.org/pdf/1904.04631.pdf) on non-parallel voic
 * [Deepanshu Badshah](#)
 * [Kshitij Srivastava](#)
 * [Siddharth Nair](https://github.com/siddharth17196)
+
+1.Target
+تبدیل صدا از بلندگوی منبع به بلندگوی هدف با استفاده از مجموعه داده موازی و GMM هدف مااز انجام این پروژه
+
